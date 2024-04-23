@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(216, 215, 215);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg-3.jpg);
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% center;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    gap: 5%;
+    justify-content: right;
+    padding-right: 5%;
+}
+
+    header nav a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(77, 73, 73);
+        padding: 10px;
+        border: 1px solid white;
+        margin: 1% 0 0 0;
+    }
+
+    header h1 {
+        height: 25%;
+        font-size: 300%;
+        text-align: center;
+        padding-top: 10%;
+        color: white;
+        margin: 0;
+    }
+
+    header h2 {
+        background-color: rgba(0, 0, 0, 0.397); 
+        text-align: center;  
+        width: fit-content;   
+        padding: 1%;
+        margin: auto;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+
+main {  
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+}
+
+    main section {
+        background-color: white;
+        margin-top: 10px;
+        padding: 2%;
+    }
+
+        main section h1 {
+            background-color: rgb(216, 215, 215);
+            margin: 5px 0 5px 0;
+            padding: 1%;
+            border-bottom: 1px solid rgb(37, 37, 37);
+        }
+
+        main section button {
+            background-color: rgb(216, 215, 215);
+            padding: 1.5%;
+            border: 0;
+            border-radius: 1vh;
+        }
+
+        main section a {
+            color: blue;
+        }
+
+footer {
+    background-color: rgb(99, 96, 96);
+    padding: 2%;
+    text-align: center;
+    margin-top: 20px;
+}
